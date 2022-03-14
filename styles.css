@@ -1,0 +1,530 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:"Roboto", sans-serif;
+}
+
+hr {
+    height: 2px solid #ccc;
+}
+
+/* Classes */
+.black-text {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Navigation Bar */
+
+.nav-container {
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Logo  */
+
+.icon-container {
+    position: relative;
+    align-items: center;
+}
+
+.ableton-logo {
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+/* Left Links */
+
+.left-links {
+    float: left;
+    padding-left: 50px;
+}
+
+.left-links li {
+    display: inline;
+    margin: 0 25px 0 0;
+    font-weight: 700;
+}
+
+.left-links li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Right Links  */
+
+.right-links {
+    /* float: right; */
+    margin-left: auto;
+    font-weight: 700;
+}
+
+.right-links li {
+    list-style: none;
+    display: inline;
+    margin: 0 5px 0 25px;
+}
+
+.right-links li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* About Container  */
+
+.about-container {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.about-container li {
+    display: inline;
+    margin-right: 45px;
+    font-size: 15px;
+}
+
+.about-container .about-link {
+    color: red;
+}
+
+/* Background Image  */
+
+.first-image-container {
+    height: 80vh;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.background-image {
+    height: 75vh;
+    width: 135vh;
+    position: relative;
+    left: 15%;
+    z-index: -1;
+}
+
+.image-container {
+    position: relative;
+}
+
+.ableton-text {
+    position: absolute;
+    color: #fff;
+    left: 30%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+}
+
+.ableton-text h2 {
+    font-size: 10vw;
+    width: auto;
+
+}
+/* Page About Text  */
+.page-about {
+    height: 30vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.page-about-text {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+
+
+span {
+    color: blue;
+}
+
+span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Second Image Section */
+
+.second-images {
+    display: grid;
+    grid: 400px / 1fr 1fr;
+    grid-gap: 10px;
+    z-index: 1;
+    padding-top: 100px;
+}
+
+.second-image1 {
+    padding: 100px;
+    position: absolute;
+    width: 35vw;
+    height: 55vh;
+    position: absolute;
+    left: 150px;
+    z-index: 1;
+}
+
+.second-image-div2 {
+    position: relative;
+}
+
+.second-image2 {
+    padding: 100px;
+    position: absolute;
+    width: 20vw;
+    height: 32vh;
+    left: 50px;
+    top: 100px;
+    z-index: 1;
+}
+
+.yellow-square {
+    height: 500px;
+    width: 650px;
+    background-color: #fbffa7;
+    position: absolute;
+    z-index: -1;
+    left: 45%;
+    padding-bottom: 100px;
+}
+
+/* Page About 2 */
+
+
+.section-page-about-2 {
+    margin-top: 70%;
+}
+
+.page-about-2 {
+    height: 30vh;
+    font-size: 1.2rem;
+    width: 50%;
+    margin: 25% auto auto auto;
+    z-index: 1;
+}
+
+.page-about-2 h2 {
+    margin-top: 5%;
+}
+
+/* Ableton Video  */
+
+.video-file {
+    position: relative;
+    height: 41vh;
+    width: 60%;
+    margin: 4% 0 10% 20%;
+}
+
+.video-text {
+    margin: 0 0 10% 20%;
+}
+
+.ableton-video {
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+}
+
+/* Page About 3  */
+
+.page-about-3 {
+    width: 50%;
+    margin: 10% auto auto auto;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Third Images Section */
+
+.third-images {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid: 1000px / 1fr 1fr;
+}
+
+.green-square {
+    position: absolute;
+    height: 73vw;
+    width: 58vw;
+    background-color: #b6ffc0;
+    z-index: -1;
+}
+
+.third-images-1 {
+    z-index: 1;
+    left: 0;
+    position: relative;
+    /* border: 3px solid red; */
+}
+
+.third-images-2 {
+    z-index: 1;
+    left: 0;
+    position: relative;
+    /* border: 3px solid red; */
+}
+
+.picture {
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+}
+
+.whiteboard-image {
+    width: 35vw;
+    height: 50vh;
+    top: 5%;
+    left: 20%;
+}
+
+.producer-image {
+    width: 35vw;
+    height: 50vh;
+    top: 55%;
+    left: 20%;
+}
+
+.ableton-image {
+    position: absolute;
+    top:40%;
+    width: 37vw;
+    height: 50vh;
+}
+
+
+/* Page About 4 */
+
+.page-about-4 {
+    width: 50%;
+    margin: 20% auto auto auto;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Fourth Images  */
+
+.fourth-image {
+    margin-left: 9%;
+    left: 9%;
+    margin-top: 10%;
+}
+
+.fourth-image img {
+    height: 100vh;
+    width: 82vw
+}
+/* Page About 5  */
+
+.final-container {
+    width: 100%;
+}
+
+ .page-about-5 {
+    width: 50%;
+    margin: 10% 0 10% 25%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.page-about-5 h1 {
+    font-size: 1.2rem;
+}
+
+.fifth-container {
+    width: 100%;
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+    position: relative;
+    z-index: -1;
+}
+
+.violet-square {
+    position: absolute;
+    width: 66.66667vw;
+    height: 58.33333vw;
+    top: 0;
+    left: 16.66667vw;
+}
+
+.bg-lavender {
+    background-color: #d5b3ff;
+}
+
+.fifth-image-2 {
+    position: relative;
+    height: 25vw;
+    width: 33vw; 
+    z-index: 1; 
+    margin-left: 8vw;
+}
+
+.fifth-image-1 {
+    height: 41vw;
+    width: 41vw;
+    position: relative;
+    margin-left: 8vw;
+}
+
+.page-about-5-images {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.page-about-6 {
+    width: 50%;
+    margin: 10% 0 10% 25%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.sixth-image-container {
+    position: relative;
+    width: 100%;
+    height: 640px;
+}
+
+.sixth-image-container img {
+    margin-left: 150px;
+    width: 640px;
+    height: 640px;
+}
+
+.purple-square-2 {
+    margin-right: auto;
+    display: inline-block;
+    position: absolute;
+    background-color: #b1c5ff;
+    width: 640px;
+    height: 640px;
+}
+
+.purple-square-text {
+    width: 80%;
+    padding-top: 200px;
+    margin: auto;
+}
+
+.purple-square-text a {
+    color: blue;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.separator {
+    height: 2px;
+    border: 2px solid #ccc;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-top: 8vw;
+}
+
+.ableton-footer {
+    padding: 0 128px;
+}
+
+.ableton-footer-logo {
+    width: 200px;
+    padding-top: 10%;
+    padding-bottom: 5%
+}
+
+.container {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+
+.cell {
+    font-size: 1rem;
+}
+
+
+.cell-3 p {
+    line-height: 2;
+}
+
+.footer-email {
+    height: 30px;
+}
+
+.footer-email-input {
+    height: 100%;
+    width: 60%;
+    border: 0;
+    background-color: #ccc;
+}
+
+.footer-email-button {
+    display: inline-block;
+    height: 32px;
+    padding-top: 8px;
+    padding-bottom: 11px;
+    border: 0;
+    color: #fff;
+    background-color: blue;
+    cursor: pointer
+}
+
+.footer-secondary-select {
+    display: inline-block;
+}
+
+.form-elememt-field {
+    border: none;
+    border-radius: 5px;  
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.footer-navbar ul {
+    margin-left: 5.7vw;
+    padding-bottom: 10%;
+    width: 50%;
+}
+
+.footer-navbar li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 0.8rem;
+}
+
+.right-footer-links {
+    float: right;
+}
+
+.madeInUSA {
+    float: right;
+    color: black;
+    font-size: 0.8rem;
+}
+
+.footer-navbar2 {
+    width: 50%;
+    display: inline-block;
+}
+
+.footer-navbar2 span {
+    text-decoration: none;
+}
+
+.footer-navbar2 img {
+    height: 100px;
+    width: 100px;
+    float: right;
+}
+
+/* @media screen (max-width: 800px) {
+
+} */
